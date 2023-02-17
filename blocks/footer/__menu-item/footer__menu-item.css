@@ -1,0 +1,9 @@
+.footer__menu-item {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
