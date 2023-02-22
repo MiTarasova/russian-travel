@@ -4,5 +4,35 @@
   display: grid;
   grid-template-columns: 460px 484px;
   grid-template-rows: auto 460px;
-  gap: 40px;
+  gap: 48px 40px;
+}
+
+.place:last-of-type {
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 1279px) {
+  .place {
+    max-width: 928px;
+    grid-template-columns: 440px 456px;
+    grid-template-rows: auto 440px;
+    gap: 48px 32px;
+}
+}
+
+@media screen and (max-width: 1023px) {
+  .place {
+    margin: 0 auto 73px;
+    grid-template-columns: 340px 352px;
+    grid-template-rows: auto auto;
+    gap: 48px 28px;
+}
+}
+
+@media screen and (max-width: 767px) {
+  .place {
+    margin-bottom: 50px;
+    grid-template-columns: repeat(1, auto);
+    gap: 32px;
+}
 }

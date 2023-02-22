@@ -5,5 +5,11 @@
   list-style: none;
   display: flex;
   flex-direction: row;
-  align-items: center;
+}
+
+@media screen and (max-width: 767px) {
+  .footer__menu-item {
+    flex-direction: column;
+    margin-bottom: 16px;
+}
 }
